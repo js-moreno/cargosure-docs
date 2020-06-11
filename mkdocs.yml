@@ -1,0 +1,24 @@
+site_name: Cargosure
+
+nav:
+    - Inicio: index.md
+    - Tutorial: 
+        - Administrador: 'tutorial-manager.md'
+        - Aseguradora: 'tutorial-insurancer.md'
+        - Tomador: 'tutorial-taker.md'
+        - Generador: 'tutorial-generator.md'
+    - Nosotros: about.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+theme:
+    name: material
+    language: es
+    palette:
+      primary: light-blue 
+      accent: pink
+    logo: img/logo.png
+    favicon: img/favicon.ico
