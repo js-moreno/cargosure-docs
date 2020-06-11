@@ -8,7 +8,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Documentacion para plataforma web Cargosure">
       
+      
+        <link rel="canonical" href="https://www.cargosure.co/">
+      
+      
+        <meta name="author" content="Juan Moreno">
       
       <link rel="shortcut icon" href="img/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.3">
@@ -21,12 +27,6 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.6e35a1a6.min.css">
       
-        <link rel="stylesheet" href="assets/stylesheets/palette.a46bcfb3.min.css">
-      
-      
-        
-        
-        <meta name="theme-color" content="#03a9f4">
       
     
     
@@ -39,6 +39,8 @@
     
     
     
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
     
       
     
@@ -46,10 +48,7 @@
   </head>
   
   
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="pink">
+    <body dir="ltr">
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -68,7 +67,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Cabecera">
-    <a href="." title="Cargosure" class="md-header-nav__button md-logo" aria-label="Cargosure">
+    <a href="https://www.cargosure.co" title="Cargosure" class="md-header-nav__button md-logo" aria-label="Cargosure">
       
   <img src="img/logo.png" alt="logo">
 
@@ -141,7 +140,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Cargosure" class="md-nav__button md-logo" aria-label="Cargosure">
+    <a href="https://www.cargosure.co" title="Cargosure" class="md-nav__button md-logo" aria-label="Cargosure">
       
   <img src="img/logo.png" alt="logo">
 
@@ -523,27 +522,27 @@
                   
                 
                 
-                <h1 id="cargosure">Cargosure<a class="headerlink" href="#cargosure" title="Permanent link">&para;</a></h1>
+                <h1 id="cargosure">Cargosure<a class="headerlink" href="#cargosure" title="Permanent link">#</a></h1>
 <p>Esta es la documentación oficial de <a href="https://www.cargosure.co">Cargosure</a>, una plataforma web especializada en la gestión de certificados de seguro para mercancias en operaciones logísticas, funcionando como un mercado en el que convergen <em>aseguradoras</em>, <em>intermediarios</em>, <em>tomadores</em> y <em>generadores</em>.</p>
-<h2 id="especificaciones">Especificaciones<a class="headerlink" href="#especificaciones" title="Permanent link">&para;</a></h2>
+<h2 id="especificaciones">Especificaciones<a class="headerlink" href="#especificaciones" title="Permanent link">#</a></h2>
 <p>Cargosure esta desarrollada desde el modelo BFF a partir de Angular 9 para Frontend y una restful API desarrollada desde Laravel 7 para el Backend, lo que desde sus estándares permite garantizar un elevado nivel de servicio  en terminos de desempeño, mantenibilidad, escalabilidad y seguridad, asi como su potencial integración con otras aplicaciones web</p>
-<h2 id="terminologia">Terminología<a class="headerlink" href="#terminologia" title="Permanent link">&para;</a></h2>
+<h2 id="terminologia">Terminología<a class="headerlink" href="#terminologia" title="Permanent link">#</a></h2>
 <p>Para el uso de esta plataforma es importante tener en cuenta las terminoligía empleada, por lo cual, se presenta a continuación un breve glosario con los términos de negocio mas relevantes:</p>
-<h4 id="usuarios">Usuarios<a class="headerlink" href="#usuarios" title="Permanent link">&para;</a></h4>
-<p>Son las cuentas personales desde la que una personna tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado <em>Actor</em> desde el cual le son conferidos los permisos que tendrá dentro de la plataforma</p>
-<h4 id="actores">Actores<a class="headerlink" href="#actores" title="Permanent link">&para;</a></h4>
+<h4 id="usuarios">Usuarios<a class="headerlink" href="#usuarios" title="Permanent link">#</a></h4>
+<p>Son las cuentas personales desde la que un individuo tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado <em>Actor</em> desde el cual le son conferidos los permisos que tendrá dentro de la plataforma</p>
+<h4 id="actores">Actores<a class="headerlink" href="#actores" title="Permanent link">#</a></h4>
 <p>Son las cuentas corporativas desde la que se definen los permisos que tendrán los usuarios asociados a estas. Estos actores son clasificados en un rol especifico que podrá ser; <em>administrador</em>, <em>aseguradora</em> , <em>intermediario</em> o <em>tomador</em>, dependiendo con su papel en el negocio.</p>
-<h4 id="administrador">Administrador<a class="headerlink" href="#administrador" title="Permanent link">&para;</a></h4>
+<h4 id="administrador">Administrador<a class="headerlink" href="#administrador" title="Permanent link">#</a></h4>
 <p>Tipo de actor encargado de la administración de la plataforma, realizando actividades como creación, modificación e inactivación de actores y usuarios</p>
-<h4 id="aseguradora">Aseguradora<a class="headerlink" href="#aseguradora" title="Permanent link">&para;</a></h4>
+<h4 id="aseguradora">Aseguradora<a class="headerlink" href="#aseguradora" title="Permanent link">#</a></h4>
 <p>Tipo de actor encargado de la gestión directa de pólizas generales, asi como la supervisión de los certificados de seguro emitidos desde sus polizas generales. </p>
-<h4 id="intermediario">Intermediario<a class="headerlink" href="#intermediario" title="Permanent link">&para;</a></h4>
-<h4 id="tomador">Tomador<a class="headerlink" href="#tomador" title="Permanent link">&para;</a></h4>
-<h4 id="generador">Generador<a class="headerlink" href="#generador" title="Permanent link">&para;</a></h4>
-<h4 id="poliza-general">Póliza General<a class="headerlink" href="#poliza-general" title="Permanent link">&para;</a></h4>
-<h4 id="certificado-de-seguro">Certificado de Seguro<a class="headerlink" href="#certificado-de-seguro" title="Permanent link">&para;</a></h4>
-<h2 id="funcionalidades">Funcionalidades<a class="headerlink" href="#funcionalidades" title="Permanent link">&para;</a></h2>
-<h2 id="acceso">Acceso<a class="headerlink" href="#acceso" title="Permanent link">&para;</a></h2>
+<h4 id="intermediario">Intermediario<a class="headerlink" href="#intermediario" title="Permanent link">#</a></h4>
+<h4 id="tomador">Tomador<a class="headerlink" href="#tomador" title="Permanent link">#</a></h4>
+<h4 id="generador">Generador<a class="headerlink" href="#generador" title="Permanent link">#</a></h4>
+<h4 id="poliza-general">Póliza General<a class="headerlink" href="#poliza-general" title="Permanent link">#</a></h4>
+<h4 id="certificado-de-seguro">Certificado de Seguro<a class="headerlink" href="#certificado-de-seguro" title="Permanent link">#</a></h4>
+<h2 id="funcionalidades">Funcionalidades<a class="headerlink" href="#funcionalidades" title="Permanent link">#</a></h2>
+<h2 id="acceso">Acceso<a class="headerlink" href="#acceso" title="Permanent link">#</a></h2>
                 
               
               
@@ -556,14 +555,49 @@
         </div>
       </main>
       
-        
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
 <footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
   
     <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Pie">
+      <nav
+        class="md-footer-nav__inner md-grid"
+        aria-label="Pie"
+      >
+
+        <!-- Link to previous page -->
         
+
+        <!-- Link to next page -->
         
-          <a href="tutorial-manager/" title="Administrador" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a
+            href="tutorial-manager/"
+            title="Administrador"
+            class="md-footer-nav__link md-footer-nav__link--next"
+            rel="next"
+          >
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
@@ -580,15 +614,27 @@
       </nav>
     </div>
   
+
+  <!-- Further information -->
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
         
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020
+          </div>
+        
+        <a
+          href="https://commity.co"
+          target="_blank" rel="noopener"
+        >
+          <img src="https://commity.co/assets/images/logo_commity.png" alt="commity" width=125 class="logo-img">
         </a>
       </div>
+
+      <!-- Social links -->
       
     </div>
   </div>
