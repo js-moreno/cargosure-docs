@@ -12,7 +12,7 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 
 #### Usuarios
 
-Son las cuentas personales desde la que una personna tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado *Actor* desde el cual le son conferidos los permisos que tendrá dentro de la plataforma
+Son las cuentas personales desde la que un individuo tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado *Actor* desde el cual le son conferidos los permisos que tendrá dentro de la plataforma
 
 #### Actores
 

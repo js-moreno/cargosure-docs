@@ -1,4 +1,8 @@
 site_name: Cargosure
+site_url: https://www.cargosure.co
+site_description: Documentacion para plataforma web Cargosure
+site_author: Juan Moreno
+copyright: 'Copyright &copy; 2020'
 
 nav:
     - Inicio: index.md
@@ -12,13 +16,13 @@ nav:
 markdown_extensions:
   - admonition
   - toc:
-      permalink: true
+      permalink: '#'
 
 theme:
     name: material
     language: es
-    palette:
-      primary: light-blue 
-      accent: pink
     logo: img/logo.png
     favicon: img/favicon.ico
+    custom_dir: overrides
+extra_css:
+  - stylesheets/extra.css
