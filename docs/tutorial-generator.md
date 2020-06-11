@@ -1,4 +1,4 @@
-# Tutorial Generadores
+# Tutorial Generador
 
 
 ## Panel de Control

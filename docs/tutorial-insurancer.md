@@ -1,4 +1,4 @@
-# Tutorial Aseguradoras
+# Tutorial Aseguradora
 
 
 ## Panel de Control

@@ -5,4 +5,7 @@
 
     /* Accent color shades */
     --md-accent-fg-color:                #00435b;
+
+    --md-code-bg-color:                  red;
+    --md-code-fg-color:                  red;
   }
