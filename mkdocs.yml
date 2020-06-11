@@ -6,11 +6,11 @@ copyright: 'Copyright &copy; 2020'
 
 nav:
     - Inicio: index.md
-    - Tutorial: 
-        - Administrador: 'tutorial-manager.md'
-        - Aseguradora: 'tutorial-insurancer.md'
-        - Tomador: 'tutorial-taker.md'
-        - Generador: 'tutorial-generator.md'
+    - Tutoriales: 
+        - Uso administrador: 'tutorial-manager.md'
+        - Uso aseguradora: 'tutorial-insurancer.md'
+        - Uso tomador: 'tutorial-taker.md'
+        - Uso generador: 'tutorial-generator.md'
     - Nosotros: about.md
 
 markdown_extensions:

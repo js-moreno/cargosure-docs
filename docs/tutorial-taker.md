@@ -1,4 +1,4 @@
-# Tutorial Tomador
+# Tomador
 
 
 ## Panel de Control

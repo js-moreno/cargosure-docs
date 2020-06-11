@@ -1,4 +1,4 @@
-# Tutorial Administrador
+# Administrador
 
 
 ## Panel de Control
