@@ -1,6 +1,6 @@
 # Cargosure
 
-Esta es la documentación oficial de [Cargosure](https://www.cargosure.co), una plataforma web especializada en la gestión de certificados de seguro para mercancias en operaciones logísticas, funcionando como un mercado en el que convergen *aseguradoras*, *intermediarios*, *tomadores* y *generadores*.
+Esta es la documentación oficial de [Cargosure](https://www.cargosure.co), una plataforma web especializada en la gestión de pólizas específicas para mercancias en operaciones logísticas, funcionando como un mercado en el que convergen *aseguradoras*, *intermediarios*, *tomadores* y *generadores*.
 
 ## Especificaciones
 
@@ -24,7 +24,7 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 
 #### Aseguradora
 
-> Actor encargado de la gestión directa de pólizas generales, asi como la supervisión de los certificados de seguro emitidos desde sus polizas generales. 
+> Actor encargado de la gestión directa de pólizas generales, asi como la supervisión de los pólizas específicas emitidos desde sus pólizas generales. 
 
 #### Intermediario
 
@@ -41,16 +41,16 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 
 #### Póliza General
 
-> Documento digital generado por una *aseguradora* que ampara la emisión de certificados de seguro bajo una serie de restricciones y con unas tarífas pactadas.
+> Documento digital generado por una *aseguradora* que ampara la emisión de pólizas específicas bajo una serie de restricciones y con unas tarífas pactadas.
 
-#### Certificado de Seguro
+#### Póliza Específica
 
-> Documento digital emitido por un tomador que basado en una poliza general proporciona la cobertura de riesgos previamente estipulados para la carga transportada cuyo beneficiario es el *generador*
+> Documento digital emitido por un tomador que basado en una póliza general proporciona la cobertura de riesgos previamente estipulados para la carga transportada cuyo beneficiario es el *generador*
 
 ## Funcionalidades
 
-La plataforma presenta un consjunto de herramientas que prentende facilitar y centralizar el modelo de negocio de las polizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de certificados de seguro previas validaciones para asegurar el cumplimento de parametros, la carga de registros masivos de expediciones en gran número y el seguimiento de los diferentes datos de interés a partir de metricas y graficos del tablero de control.
+La plataforma presenta un consjunto de herramientas que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de pólizas específicas previas validaciones para asegurar el cumplimento de parametros, la carga de registros masivos de expediciones en gran número y el seguimiento de los diferentes datos de interés a partir de metricas y graficos del tablero de control.
 
 ## Acceso
 
-El acceso a la plataforma es suministrado por los Administradores y solo permitido para Administradores, aseguradoras y tomadores. Sin embargo hay opciones de consulta que no requiere de autenticacion cono es el caso de la validación de certificados de seguro.
+El acceso a la plataforma es suministrado por los Administradores y solo permitido para Administradores, Aseguradoras y Tomadores. Sin embargo hay opciones de consulta que no requiere de autenticacion como es el caso de la validación de pólizas específicas.
