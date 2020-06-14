@@ -1,9 +1,9 @@
 # Administrador
 
+!!! danger
+    - Pendiente definición de responsabilidades del rol
 
 ## Panel de Control
-
-## Usuarios
 
 ## Actores
 
@@ -13,13 +13,9 @@
 ### Tomadores
 ### Generadores
 
+## Usuarios
+
 ## Pólizas Generales
 
-## Certificados de Seguro
+## Pólizas Específicas
 
-## Masivos
-
-!!! note
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
