@@ -49,7 +49,18 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 
 ## Funcionalidades
 
-La plataforma presenta un consjunto de herramientas que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de pólizas específicas previas validaciones para asegurar el cumplimento de parametros, la carga de registros masivos de expediciones en gran número y el seguimiento de los diferentes datos de interés a partir de metricas y graficos del tablero de control.
+La plataforma presenta un conjunto de herramientas que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de pólizas específicas previas validaciones para asegurar el cumplimento de parametros, la carga de registros masivos de expediciones en gran número y el seguimiento de los diferentes datos de interés a partir de metricas y graficos del tablero de control.
+
+
+!!! note
+    - Completa trazabilidad de registros (historial de cambios)
+    - Gestión de información propia
+
+!!! warning
+    - Consulta diferente a ver detalles, solo muestra información general
+
+!!! danger
+    - Descarga de registros
 
 ## Acceso
 

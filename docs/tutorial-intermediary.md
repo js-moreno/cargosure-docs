@@ -26,7 +26,7 @@
 
 !!! note
     - Consultar información de su organización
-    - Editar información de su organización
+    - Gestionar su información (Ver y Editar)
 
 ### Tomadores
 

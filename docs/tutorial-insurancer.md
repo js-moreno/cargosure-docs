@@ -20,6 +20,12 @@ Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y g
 !!! note
     - Consultar los administradores de la plataforma
 
+### Aseguradoras
+
+!!! note
+    - Consultar los aseguradoras de la plataforma
+    - Gestionar su información (Ver y Editar)
+
 ### Intermediarios
 
 !!! note
@@ -41,6 +47,7 @@ El primer módulo que tiene a disposición, y tal vez el más importante, es el 
 
 !!! note
     - Consultar pólizas generales creadas
+    - Ver detalles de pólizas generales creadas
     - Crear pólizas generales
     - Editar pólizas generales creadas
     - Inactivar pólizas generales creadas
