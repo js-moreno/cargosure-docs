@@ -484,74 +484,138 @@
 <p>Las aseguradoras tienen la opción de gestionar las pólizas generales según lo requiera así como realizar labores de control sobre las pólizas esoecíficas de su jurisdicción. A continuación se presenta un breve recorrido de las funcionalidades que <strong>Cargosure</strong> ofrece para los usuarios de este rol:</p>
 <h2 id="panel-de-control">Panel de Control<a class="headerlink" href="#panel-de-control" title="Permanent link">#</a></h2>
 <p>Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y gráficos que le darán un completo resumen de las métricas claves del negocio.  Cantidad de pólizas específicas emitidas, la suma total de los valores asegurados y el valor total facturado por mes y en lo que va del año son algunos de los indices que le darán una reporte sustancial del estado del ejercicio.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Cantidad de pólizas generales</li>
-<li>Cantidad de pólizas específicas</li>
-<li>Valor facturado</li>
-<li>Valor asegurado</li>
-<li>Distribución de valores asegurados por atributos de pólizas específicas (Mercancias, Clasificación de mercancia, Tomador...)</li>
+<details class="info"><summary>Métricas</summary><ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/></svg></span>   Cantidad de pólizas generales</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M398.5 190.91l.59-.61 26.59-26.58a16 16 0 000-22.63L403 118.41a16 16 0 00-22.63 0l-24.68 24.68A206.68 206.68 0 00256 98.5V64h32a16 16 0 0016-16V16a16 16 0 00-16-16H160a16.05 16.05 0 00-16 16v32a16.05 16.05 0 0016 16h32v34.5A207.92 207.92 0 0016.09 297.57C12.64 411.5 106.76 510.22 220.72 512 337.13 513.77 432 420 432 304a206 206 0 00-33.5-113.09zM204.37 377.55a8.2 8.2 0 018.32 8.07v22.31a8.2 8.2 0 01-8.32 8.07h-82.85a16.46 16.46 0 01-16.61-17.62c2.78-35.22 14.67-57.41 38.45-91.37 20.42-29.19 27.1-37.32 27.1-62.34 0-16.92-1.79-24.27-12.21-24.27-9.39 0-12.69 7.4-12.69 22.68v5.23a8.2 8.2 0 01-8.33 8.07h-24.9a8.2 8.2 0 01-8.33-8.07v-4.07c0-27.3 8.48-60.24 56.43-60.24 43 0 55.57 25.85 55.57 61 0 35.58-12.44 51.21-34.35 81.31-11.56 15-24.61 35.57-26.41 51.2zM344 352.32c0 35.16-12.3 63.68-57.23 63.68-43.58 0-54.77-29.52-54.77-63.45V247.22c0-40.73 19.58-63.22 56.2-63.22 36.8 0 55.8 22.64 55.8 61.3zm-56.13-130.59c-9.41 0-13.23 7.5-13.23 20v115.95c0 13.11 3.59 20.59 13.23 20.59s13-8 13-21.27V241.06c.02-11.27-2.99-19.33-13-19.33z"/></svg></span>   Cantidad de pólizas específicas</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 416c114.9 0 208-93.1 208-208S370.9 0 256 0 48 93.1 48 208s93.1 208 208 208zM233.8 97.4V80.6c0-9.2 7.4-16.6 16.6-16.6h11.1c9.2 0 16.6 7.4 16.6 16.6v17c15.5.8 30.5 6.1 43 15.4 5.6 4.1 6.2 12.3 1.2 17.1L306 145.6c-3.8 3.7-9.5 3.8-14 1-5.4-3.4-11.4-5.1-17.8-5.1h-38.9c-9 0-16.3 8.2-16.3 18.3 0 8.2 5 15.5 12.1 17.6l62.3 18.7c25.7 7.7 43.7 32.4 43.7 60.1 0 34-26.4 61.5-59.1 62.4v16.8c0 9.2-7.4 16.6-16.6 16.6h-11.1c-9.2 0-16.6-7.4-16.6-16.6v-17c-15.5-.8-30.5-6.1-43-15.4-5.6-4.1-6.2-12.3-1.2-17.1l16.3-15.5c3.8-3.7 9.5-3.8 14-1 5.4 3.4 11.4 5.1 17.8 5.1h38.9c9 0 16.3-8.2 16.3-18.3 0-8.2-5-15.5-12.1-17.6l-62.3-18.7c-25.7-7.7-43.7-32.4-43.7-60.1.1-34 26.4-61.5 59.1-62.4zM480 352h-32.5c-19.6 26-44.6 47.7-73 64h63.8c5.3 0 9.6 3.6 9.6 8v16c0 4.4-4.3 8-9.6 8H73.6c-5.3 0-9.6-3.6-9.6-8v-16c0-4.4 4.3-8 9.6-8h63.8c-28.4-16.3-53.3-38-73-64H32c-17.7 0-32 14.3-32 32v96c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32v-96c0-17.7-14.3-32-32-32z"/></svg></span>  Valor Facturado</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M271.06 144.3l54.27 14.3a8.59 8.59 0 016.63 8.1c0 4.6-4.09 8.4-9.12 8.4h-35.6a30 30 0 01-11.19-2.2c-5.24-2.2-11.28-1.7-15.3 2l-19 17.5a11.68 11.68 0 00-2.25 2.66 11.42 11.42 0 003.88 15.74 83.77 83.77 0 0034.51 11.5V240c0 8.8 7.83 16 17.37 16h17.37c9.55 0 17.38-7.2 17.38-16v-17.6c32.93-3.6 57.84-31 53.5-63-3.15-23-22.46-41.3-46.56-47.7l-54.27-14.3a8.59 8.59 0 01-6.63-8.1c0-4.6 4.09-8.4 9.12-8.4h35.6A30 30 0 01332 83.1c5.23 2.2 11.28 1.7 15.3-2l19-17.5a11.31 11.31 0 002.17-2.6 11.43 11.43 0 00-3.84-15.78 83.82 83.82 0 00-34.52-11.5V16c0-8.8-7.82-16-17.37-16h-17.37C285.82 0 278 7.2 278 16v17.6c-32.89 3.6-57.85 31-53.51 63 3.14 23 22.51 41.3 46.57 47.7zm294.21 183.8c-11.8-10.7-30.2-10-42.6 0l-92.4 73.9a63.64 63.64 0 01-40 14H272a16 16 0 010-32h78.29c15.9 0 30.71-10.9 33.25-26.6a31.2 31.2 0 00.46-5.46A32 32 0 00352 320H192a117.66 117.66 0 00-74.1 26.29L71.4 384H16a16 16 0 00-16 16v96a16 16 0 0016 16h356.77a64 64 0 0040-14L564 377a32 32 0 001.28-48.9z"/></svg></span>  Valor asegurado</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544 512"><path d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z"/></svg></span>  Distribucion de lo asegurado</li>
 </ul>
-</div>
+</details>
 <h2 id="actores">Actores<a class="headerlink" href="#actores" title="Permanent link">#</a></h2>
 <h3 id="administradores">Administradores<a class="headerlink" href="#administradores" title="Permanent link">#</a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar los administradores de la plataforma</li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consultar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ver</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar</li>
 </ul>
-</div>
+</details>
 <h3 id="aseguradoras">Aseguradoras<a class="headerlink" href="#aseguradoras" title="Permanent link">#</a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar los aseguradoras de la plataforma</li>
-<li>Gestionar su información (Ver y Editar)</li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consultar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Descargar reporte propios</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar de terceros  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Descargar reporte de terceros </li>
 </ul>
-</div>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ver<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ver propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver de terceros   </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Editar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar de terceros   </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar</li>
+</ul>
+</details>
 <h3 id="intermediarios">Intermediarios<a class="headerlink" href="#intermediarios" title="Permanent link">#</a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar los intermediarios con las que está relacionado mediante una póliza general</li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consultar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Descargar reporte propios</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar de terceros  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Descargar reporte de terceros </li>
 </ul>
-</div>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar</li>
+</ul>
+</details>
 <h3 id="tomadores">Tomadores<a class="headerlink" href="#tomadores" title="Permanent link">#</a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar los intermediarios con las que está relacionado mediante una póliza general</li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consultar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar</li>
 </ul>
-</div>
+</details>
 <h2 id="usuarios">Usuarios<a class="headerlink" href="#usuarios" title="Permanent link">#</a></h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar los usuarios de su organización </li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consultar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Descargar reporte propios</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consutar de terceros  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Descargar reporte de terceros </li>
 </ul>
-</div>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ver propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver de terceros   </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar</li>
+</ul>
+</details>
 <h2 id="polizas-generales">Pólizas Generales<a class="headerlink" href="#polizas-generales" title="Permanent link">#</a></h2>
 <p>El primer módulo que tiene a disposición, y tal vez el más importante, es el de <em>Pólizas Generales</em>, desde allí podra llevar una completa gestión de dichos documentos. Consultar, visualizar, crear, editar e inactivar son las acciones que le permitirán llevar un completo control de este elemento central de negocio que por lo demás considera todas las posibles necesidades que pueda requerir el usuario en un mercado tan dinámico como es el de los seguros de carga. El poder representar fielmente  los puntos más relevantes de un documento de póliza de seguro de transporte de mercancia sin requerir de ayuda externa y que estos garanticen la generación de pólizas específicas bajo las directrices estipuladas, es sin duda una de las principales ventajas ofrecidas por la plataforma.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar pólizas generales creadas</li>
-<li>Ver detalles de pólizas generales creadas</li>
-<li>Crear pólizas generales</li>
-<li>Editar pólizas generales creadas</li>
-<li>Inactivar pólizas generales creadas</li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consultar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Descargar reporte propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consutar de terceros  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Descargar reporte de terceros </li>
 </ul>
-</div>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ver propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver de terceros   </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Editar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar de terceros  </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Inactivar/activar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar de terceros   </li>
+</ul>
+</li>
+</ul>
+</details>
 <h2 id="polizas-especificas">Pólizas Específicas<a class="headerlink" href="#polizas-especificas" title="Permanent link">#</a></h2>
 <p>Para la aseguradora es acceso a este módulo es simplemente de supervisíón, pudiendo validar los detalles de cada una de las pólizas especifiacas generadas desde sus pólizas generales.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>Consultar pólizas específicas relacionadas</li>
-<li>Inactivar pólizas específicas relacionadas</li>
+<details class="success"><summary>Permisos</summary><ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consultar<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Consutar propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Descargar reporte propios</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consutar de terceros  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Descargar reporte de terceros </li>
 </ul>
-</div>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ver propios </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ver de terceros   </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Crear</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Editar</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Inactivar/activar</li>
+</ul>
+</details>
                 
               
               
