@@ -11,6 +11,7 @@
     * :fontawesome-solid-print:  Cantidad de pólizas específicas emitidas
     * :fontawesome-solid-chart-pie:  Distribucion de cuentas
     * :fontawesome-solid-chart-area:  Histórico de emisiones por aseguradora
+    * :fontawesome-solid-chart-bar:  Cantidad de emisiones por aseguradora
 
 ## Actores
 
