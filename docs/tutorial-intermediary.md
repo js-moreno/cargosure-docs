@@ -2,8 +2,13 @@
 
 ## Panel de Control
 
-!!! note
-    - Cantidad de específicas emitidas
+??? info "Métricas"
+    * :fontawesome-brands-black-tie:  Cantidad de tomadores
+    * :fontawesome-solid-print:  Cantidad pólizas específicas emitidas
+    * :fontawesome-solid-hand-holding-usd: Valor asegurado
+    * :fontawesome-solid-chart-pie:  Distribucion de mercancias
+    * :fontawesome-solid-chart-line:  Histórico valor asegurado
+    * :fontawesome-solid-chart-bar:  Valor asegurado por tomador
 
 ## Usuarios
     

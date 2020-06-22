@@ -7,11 +7,12 @@ Las aseguradoras tienen la opción de gestionar las pólizas generales según lo
 Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y gráficos que le darán un completo resumen de las métricas claves del negocio.  Cantidad de pólizas específicas emitidas, la suma total de los valores asegurados y el valor total facturado por mes y en lo que va del año son algunos de los indices que le darán una reporte sustancial del estado del ejercicio.
 
 ??? info "Métricas"
-    * :fontawesome-solid-globe:   Cantidad de pólizas generales
-    * :fontawesome-solid-stopwatch-20:   Cantidad de pólizas específicas
-    * :fontawesome-solid-donate:  Valor Facturado
-    * :fontawesome-solid-hand-holding-usd:  Valor asegurado
-    * :fontawesome-solid-chart-pie:  Distribucion de lo asegurado
+    * :fontawesome-solid-globe:  Cantidad de pólizas generales
+    * :fontawesome-solid-print:  Cantidad pólizas específicas emitidas
+    * :fontawesome-solid-donate: Valor facturado
+    * :fontawesome-solid-chart-pie:  Distribucion de mercancias
+    * :fontawesome-solid-chart-line:  Histórico valor asegurado
+    * :fontawesome-solid-chart-bar:  Valor asegurado por intermediario
 
 ## Actores
 

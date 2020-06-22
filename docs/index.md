@@ -18,7 +18,7 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 
  > Son las cuentas corporativas desde la que se definen los permisos que tendrán los usuarios asociados a estas. Estos actores son clasificados en un rol especifico que podrá ser; *administrador*, *aseguradora* , *intermediario* o *tomador*, dependiendo con su papel en el negocio.
 
-??? note "Nota"
+ >??? note "Nota"
     Los *generadores* son otro tipo de organización representada en la plataforma como actor, sin embargo tiene la particularidad de no ser un rol de usuario, por ende no tiene acceso al sistema, siendo solo una figura representativa.
 
 

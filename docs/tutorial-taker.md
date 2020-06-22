@@ -3,14 +3,13 @@
 
 ## Panel de Control
 
-!!! note
-    - Cantidad de pólizas específicas (emitidas vs creadas)
-    - Valor asegurado
-    - Valor facturado
-    - Valor margen
-    - Distribución de valores asegurados por atributos de pólizas específicas (Mercancias, Clasificación de mercancia, Generador...)
-    - Cantidad de generadores
-
+??? info "Métricas"
+    * :fontawesome-solid-building: Cantidad de generadores
+    * :fontawesome-solid-print:  Cantidad pólizas específicas emitidas
+    * :fontawesome-solid-comment-dollar: Valor margen
+    * :fontawesome-solid-chart-pie:  Distribucion de mercancias
+    * :fontawesome-solid-chart-line:  Histórico valor asegurado
+    * :fontawesome-solid-chart-bar:  Valor asegurado por generador
     
 ## Actores
 
