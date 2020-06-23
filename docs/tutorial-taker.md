@@ -4,12 +4,12 @@
 ## Panel de Control
 
 ??? info "Métricas"
-    * :fontawesome-solid-building: Cantidad de generadores
+    * :fontawesome-solid-building: Generadores creados
     * :fontawesome-solid-print:  Cantidad pólizas específicas emitidas
     * :fontawesome-solid-comment-dollar: Valor margen
     * :fontawesome-solid-chart-pie:  Distribucion de mercancias
-    * :fontawesome-solid-chart-line:  Histórico valor asegurado
-    * :fontawesome-solid-chart-bar:  Valor asegurado por generador
+    * :fontawesome-solid-chart-bar:  Total valor de despacho por generador
+    * :fontawesome-solid-chart-line:  Histórico total valor de despacho
     
 ## Actores
 

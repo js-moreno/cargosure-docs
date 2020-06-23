@@ -3,12 +3,12 @@
 ## Panel de Control
 
 ??? info "Métricas"
-    * :fontawesome-brands-black-tie:  Cantidad de tomadores
-    * :fontawesome-solid-print:  Cantidad pólizas específicas emitidas
-    * :fontawesome-solid-hand-holding-usd: Valor asegurado
-    * :fontawesome-solid-chart-pie:  Distribucion de mercancias
-    * :fontawesome-solid-chart-line:  Histórico valor asegurado
-    * :fontawesome-solid-chart-bar:  Valor asegurado por tomador
+    * :fontawesome-brands-black-tie:  Pólizas  generales asignadas
+    * :fontawesome-solid-print:  Pólizas específicas emitidas
+    * :fontawesome-solid-hand-holding-usd: Sumatoria valor de despacho
+    * :fontawesome-solid-chart-pie:  Distribucion de valor de mercancia por tipo
+    * :fontawesome-solid-chart-line:  Histórico total valor de despacho
+    * :fontawesome-solid-chart-bar:  Total valor de desacho por tomador
 
 ## Usuarios
     

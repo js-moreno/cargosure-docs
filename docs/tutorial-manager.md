@@ -6,12 +6,12 @@
 ## Panel de Control
 
 ??? info "Métricas"
-    * :fontawesome-solid-users:   Cantidad de usuarios
-    * :fontawesome-solid-university:   Cantidad de actores
-    * :fontawesome-solid-print:  Cantidad de pólizas específicas emitidas
-    * :fontawesome-solid-chart-pie:  Distribucion de cuentas
-    * :fontawesome-solid-chart-area:  Histórico de emisiones por aseguradora
+    * :fontawesome-solid-users:   Usuarios verificados
+    * :fontawesome-solid-university:   Actores creados
+    * :fontawesome-solid-print:  Pólizas específicas emitidas
+    * :fontawesome-solid-chart-pie:  Distribucion de usuarios
     * :fontawesome-solid-chart-bar:  Cantidad de emisiones por aseguradora
+    * :fontawesome-solid-chart-line:  Histórico de emisiones
 
 ## Actores
 
