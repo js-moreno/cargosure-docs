@@ -12,7 +12,6 @@ nav:
         - Aseguradora: 'tutorial-insurancer.md'
         - Intermediario: 'tutorial-intermediary.md'
         - Tomador: 'tutorial-taker.md'
-        - Generador: 'tutorial-generator.md'
     - Nosotros: about.md
 
 markdown_extensions:
