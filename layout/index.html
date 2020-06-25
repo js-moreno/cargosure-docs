@@ -203,23 +203,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#vista-ingreso" class="md-nav__link">
+    Vista Ingreso
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vistas-internas" class="md-nav__link">
+    Vistas Internas
+  </a>
+  
+    <nav class="md-nav" aria-label="Vistas Internas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#barra-de-navegacion" class="md-nav__link">
     Barra de navegación
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#encabezado" class="md-nav__link">
     Encabezado
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#contenido" class="md-nav__link">
     Contenido
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -303,18 +323,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../tutorial-generator/" title="Generador" class="md-nav__link">
-      Generador
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -358,23 +366,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#vista-ingreso" class="md-nav__link">
+    Vista Ingreso
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vistas-internas" class="md-nav__link">
+    Vistas Internas
+  </a>
+  
+    <nav class="md-nav" aria-label="Vistas Internas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#barra-de-navegacion" class="md-nav__link">
     Barra de navegación
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#encabezado" class="md-nav__link">
     Encabezado
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#contenido" class="md-nav__link">
     Contenido
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -395,36 +423,49 @@
                 
                 
                 <h1 id="disposicion">Disposición<a class="headerlink" href="#disposicion" title="Permanent link">#</a></h1>
-<h2 id="barra-de-navegacion">Barra de navegación<a class="headerlink" href="#barra-de-navegacion" title="Permanent link">#</a></h2>
-<details class="example"><summary>Listado de Menus y Submenus</summary><ul>
-<li>Opciones<ul>
-<li>Incidencias</li>
+<p>La plataforma tiene un diseño estandar basado en una SPA <em>Single page Aplication</em>; con una vista de ingreso con las funcionalidades públicas y metodos de acceso y una serie de vistas internas a las que podrán acceder los usuarios autenticados segun su rol.</p>
+<h2 id="vista-ingreso">Vista Ingreso<a class="headerlink" href="#vista-ingreso" title="Permanent link">#</a></h2>
+<p>Es la vista obtenida al acceder a la URL de la plataforma, desde ella se podrán hacer acciones relacionadas a al autenticación como lo son el ingreso al aplicativo o el restablecimiento de la contraseña en caso de olvido.</p>
+<p>Desde esta visual se podra tambien acceder a recursos públicos, como es el caso de esta documentación o la <em>consulta expresa</em> de una póliza específica emitida disponible.</p>
+<details class="tip"><summary>Tip</summary><p>La <strong>consulta expresa</strong> es una funcionalidad pública desde la que se puede acceder a los datos disponibles de una póliza específica ya sea a partir del número de póliza especifica y token de identificación presentados en el documento emitido o escaneando el código QR del mismo certificado. Esta opcion es de mucha utilidad para la verificación de una póliza específica emitidas por parte del usuario final, quien podrá hacerlo sin autenticarse en la plataforma.</p>
+</details>
+<h2 id="vistas-internas">Vistas Internas<a class="headerlink" href="#vistas-internas" title="Permanent link">#</a></h2>
+<p>Al acceder a la plataforma se tiene una estructura definida, según la cual se cuenta con una <em>barra de navegación</em> a lo largo de la parte izquierda de la página, un <em>encabezado</em> en la parte superior de la misma y el <em>contenido</em> del recurso requerido</p>
+<h3 id="barra-de-navegacion">Barra de navegación<a class="headerlink" href="#barra-de-navegacion" title="Permanent link">#</a></h3>
+<p>La barra de navegacion recopila las rutas de acceso a los recursos que el usuario tiene a disposición según su rol, desde ella el usuario podrá acceder facilmente a las rutas para ver los contendios que requiera. </p>
+<details class="example"><summary>Composición Barra de Navegación</summary><ul>
+<li><strong>Inicio</strong> - Redirección a vista de Inicio</li>
+<li><strong>Opciones</strong> - Agrupación de recursos de apoyo<ul>
+<li><strong>Incidencias</strong> - Monitoreo de incidentes de la plataforma </li>
 </ul>
 </li>
-<li>Cuentas<ul>
-<li>Usuarios</li>
+<li><strong>Cuentas</strong> - Agrupación de recursos de cuentas personales<ul>
+<li><strong>Usuarios</strong> - Listado de cuentas personales</li>
 </ul>
 </li>
-<li>Actores<ul>
-<li>Administradores</li>
-<li>Aseguradoras</li>
-<li>Intermediarios</li>
-<li>Tomadores</li>
+<li><strong>Actores</strong> - Agrupación de recursos de cuentas corporativas<ul>
+<li><strong>Administradores</strong> - Listado de cuentas corporativas de rol administrador</li>
+<li><strong>Aseguradoras</strong> - Listado de cuentas corporativas de rol asegurador</li>
+<li><strong>Intermediarios</strong> - Listado de cuentas corporativas de rol intermediario</li>
+<li><strong>Tomadores</strong> - Listado de cuentas corporativas de rol tomador</li>
 </ul>
 </li>
-<li>Pólizas<ul>
-<li>Generales</li>
-<li>Específicas</li>
+<li><strong>Pólizas</strong> - Agrupación de pólizas<ul>
+<li><strong>Generales</strong> - Listado de pólizas generales </li>
+<li><strong>Específicas</strong> - Listado de pólizas específicas</li>
 </ul>
 </li>
-<li>Interesados<ul>
-<li>Generadores</li>
+<li><strong>Interesados</strong> - Agrupación de figuras complementarias<ul>
+<li><strong>Generadores</strong> - Listado de generadores</li>
 </ul>
 </li>
+<li><strong>Copyright</strong> - Apartado de derechos de autor</li>
 </ul>
 </details>
-<h2 id="encabezado">Encabezado<a class="headerlink" href="#encabezado" title="Permanent link">#</a></h2>
-<h2 id="contenido">Contenido<a class="headerlink" href="#contenido" title="Permanent link">#</a></h2>
+<h3 id="encabezado">Encabezado<a class="headerlink" href="#encabezado" title="Permanent link">#</a></h3>
+<p>El encabezado presenta un resumen del estado actual de sesión, presenta la indicación del recurso en el que se está, el rol del usuario autenticado asi como su nombre y el nombre del actor al que está vinculado, asi como el logo (si esta definido). De igual manera presenta opciones de perfil, desde las que podrá editar la información permitida tanto personal como corporativa. Finalmente tambien presenta la funcionalidad de fin de sesión. </p>
+<h3 id="contenido">Contenido<a class="headerlink" href="#contenido" title="Permanent link">#</a></h3>
+<p>En esta seccion se presenta la interfaz gráfica para la interacción con el recurso en cuestion. Estas secciones podran ser infomres con graficos e indicadores de interés, compendios de datos en tablas, formularios para edicion o creacion de instancias, visuales con información de un resgistro en especifico o incluso el historial de cambios de una unidad de negocio. Cabe aclarar que solo se tendrá a disposición las acciones y elementos que le sean permitidos al rol del usuario autenticado.</p>
                 
               
               
