@@ -10,38 +10,23 @@ Cargosure esta desarrollada desde el modelo BFF a partir de Angular 9 para Front
 
 Para el uso de esta plataforma es importante tener en cuenta las terminoligía empleada, por lo cual, se presenta a continuación un breve glosario con los términos de negocio mas relevantes:
 
-#### Usuarios
-
->Son las cuentas personales desde la que un individuo tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado *actor* desde el cual le son conferidos los permisos que tendrá dentro de la plataforma a modo de rol.
 
 #### Actores
 
- > Son las cuentas corporativas desde la que se definen los permisos que tendrán los usuarios asociados a estas. Estos actores son clasificados en un rol especifico que podrá ser; *administrador*, *aseguradora* , *intermediario* o *tomador*, dependiendo con su papel en el negocio.
+ > Son las cuentas corporativas desde la que se definen los permisos que tendrán los usuarios de la plataforma. Estos actores son clasificados en un rol especifico que podrá ser; *administrador*, *aseguradora* , *intermediario* o *tomador*, segun su papel en el negocio.
 
- >??? note "Nota"
-    Los *generadores* son otro tipo de organización representada en la plataforma como actor, sin embargo tiene la particularidad de no ser un rol de usuario, por ende no tiene acceso al sistema, siendo solo una figura representativa.
+#### Cuentas
 
-
-#### Administrador
-
-> Responsable de la administración de la plataforma, realizando actividades como creación, modificación e inactivación de actores y usuarios
-
-#### Aseguradora
-
-> Encargado de la gestión directa de pólizas generales, asi como la supervisión de los pólizas específicas relacionadas. 
-
-#### Intermediario
-
-> Representación de la figura que media entre aseguradora y  tomador.
-
-
-#### Tomador
-
-> Figura que representa los agentes de carga o transportistas que ofrecen servicios de aseguramiento de carga amparados por una póliza general. 
+> Es la representación de un sujeto dentro de la aplicación, en ella se almacena la información de identificación para garantizar una adecuada autenticación y correspondiente autorización de acceso a los recursos permitidos disponibles.
 
 #### Generador
 
-> Organización que funge como cliente final, aquella que es solicitante y beneficiaria del seguro que ampara su carga.
+> Organización que funge como cliente final, aquella que es solicitante y beneficiaria del seguro que ampara su carga. Si bien es una figura cororativa que hace parte de del modelo de negocio, su papel es simplemente representativo y su participación pasiva, por lo que no es considerado como un actor.
+
+#### Interesados
+
+> Conjunto de entidades o individuos involucradas con el negocio pero que solo son representadas simbolicamente en la plataforma.
+
 
 #### Póliza General
 
@@ -50,6 +35,15 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 #### Póliza Específica
 
 > Documento emitido por un tomador o intermediario que basado en una póliza general proporciona la cobertura de riesgos previamente estipulados para un cargamento transportado por solicitud de un generador
+
+#### Tomador
+
+> Tipo de actor que representa los agentes de carga o transportistas que ofrecen servicios de aseguramiento de carga amparados por una póliza general. 
+
+#### Usuarios
+
+>Son las cuentas personales desde la que un individuo tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado *actor* desde el cual le son conferidos los permisos que tendrá dentro de la plataforma a modo de rol.
+
 
 ## Funcionalidades
 
@@ -62,4 +56,4 @@ La plataforma presenta un conjunto de herramientas enfocadas en los diferentes r
 
 El acceso a la plataforma es gestionado por los Administradores, quienes como primera medida serán los encargados de la creación del actor (la organización con uno de los roles previamente descritos) luego de la solicitud formal de un representante de la compañía tras su correspondiente validación. Paso seguido, con una solicitud similar serán creados los diferentes usuarios que se requieran bajo la figura del actor previamente creado.
 
-Las acciones de edición o inactivacion de cuentas ya sean corporativas (actor) o individuales (usuario) se realizarán tambien con una solicitud formal del representante del a organización.
+Las acciones de edición restringida o inactivacion de cuentas ya sea corporativas (actor) o individuales (usuario) se realizarán tambien con una solicitud formal del representante del a organización.

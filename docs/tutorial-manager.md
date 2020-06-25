@@ -1,9 +1,10 @@
 # Administrador
 
-!!! danger
-    - Pendiente definición de responsabilidades del rol
+Los actores con este rol son los encargados de la gestión universal de la plataforma, garantizando su correcto funcionamiento, la seguridad de la información y la autenticidad de sus consumidores, teniendo un papel de moderador y soporte técnico al que podrán acceder los  usuarios ante cualquier solicitud, inquietud, sugerencia, inconveniente o inconformidad del servicio web.
 
 ## Panel de Control
+
+Al ingresar al aplicativo, en la vista de inicio, podrá ver el tablero de mando que le ofrece la plataforma, desde este podrá apreciar un visual completa de las metricas mas relevantes de su rol, con el fin de tener un panorama actualizado del negocio y así ejercer un control oportuno.
 
 ??? info "Métricas"
     * :fontawesome-solid-users:   Usuarios verificados
@@ -13,27 +14,18 @@
     * :fontawesome-solid-chart-bar:  Cantidad de emisiones por aseguradora
     * :fontawesome-solid-chart-line:  Histórico de emisiones
 
-## Actores
+## Monitoreo
 
-### Administradores
-### Aseguradoras
-### Intermediarios
-### Tomadores
-### Generadores
+Desde este menú podrá festionar todos los recursos de apoyo de la plataforma
 
-## Usuarios
+## Gestión de Usuarios
 
-## Pólizas Generales
+Su papel es vital para el correcto funcionamiento de la plataforma
 
-## Pólizas Específicas
+## Gestión de Actores
 
+Su papel es vital para el correcto funcionamiento de la plataforma
 
-!!! note
-    - Completa trazabilidad de registros (historial de cambios)
-    - Gestión de información propia
+## Supervisión
 
-!!! warning
-    - Consulta diferente a ver detalles, solo muestra información general
-
-!!! danger
-    - Descarga de registros
+Su papel es vital para el correcto funcionamiento de la plataforma

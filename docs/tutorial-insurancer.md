@@ -14,59 +14,18 @@ Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y g
     * :fontawesome-solid-chart-bar:  Total valor de despacho por intermediario
     * :fontawesome-solid-chart-line:  Histórico total valor de despacho
 
-## Actores
+## Consulta de Actores
 
-### Administradores
-
-??? success "Permisos"
-    * [x] Consultar
-    * [x] Ver
-    * [ ] Crear
-    * [ ] Editar
-    * [ ] Inactivar/activar
-
-### Aseguradoras
-
-??? success "Permisos"
-    * [x] Consultar
-        * [x] Consutar propios 
-        * [x] Descargar reporte propios
-        * [x] Consutar de terceros  
-        * [ ] Descargar reporte de terceros 
-    * [x] Ver
-        * [x] Ver propios 
-        * [ ] Ver de terceros   
-    * [ ] Crear
-    * [ ] Editar
-        * [x] Editar propios 
-        * [ ] Editar de terceros   
-    * [ ] Inactivar/activar
-
-### Intermediarios
-
-??? success "Permisos"
-    * [ ] Consultar
-        * [x] Consutar propios 
-        * [x] Descargar reporte propios
-        * [x] Consutar de terceros  
-        * [ ] Descargar reporte de terceros 
-    * [ ] Ver
-    * [ ] Crear
-    * [ ] Editar
-    * [ ] Inactivar/activar
-
-### Tomadores
-
-??? success "Permisos"
+??? success "Permisos Administradores, Aseguradoras, Intermediarios y Tomadores"
     * [x] Consultar
     * [ ] Ver
     * [ ] Crear
     * [ ] Editar
     * [ ] Inactivar/activar
 
-## Usuarios
+## Revisión de Usuarios
     
-??? success "Permisos"
+??? success "Permisos Usuarios"
     * [ ] Consultar
         * [x] Consutar propios 
         * [x] Descargar reporte propios
@@ -79,11 +38,11 @@ Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y g
     * [ ] Editar
     * [ ] Inactivar/activar
     
-## Pólizas Generales
+## Gestión de Pólizas Generales
 
 El primer módulo que tiene a disposición, y tal vez el más importante, es el de *Pólizas Generales*, desde allí podra llevar una completa gestión de dichos documentos. Consultar, visualizar, crear, editar e inactivar son las acciones que le permitirán llevar un completo control de este elemento central de negocio que por lo demás considera todas las posibles necesidades que pueda requerir el usuario en un mercado tan dinámico como es el de los seguros de carga. El poder representar fielmente  los puntos más relevantes de un documento de póliza de seguro de transporte de mercancia sin requerir de ayuda externa y que estos garanticen la generación de pólizas específicas bajo las directrices estipuladas, es sin duda una de las principales ventajas ofrecidas por la plataforma.
 
-??? success "Permisos"
+??? success "Permisos Pólizas Generales"
     * [ ] Consultar
         * [x] Consutar propios 
         * [x] Descargar reporte propios 
@@ -100,11 +59,11 @@ El primer módulo que tiene a disposición, y tal vez el más importante, es el 
         * [x] Inactivar/activar propios 
         * [ ] Inactivar/activar de terceros   
 
-## Pólizas Específicas
+## Inspección de Pólizas Específicas
 
 Para la aseguradora es acceso a este módulo es simplemente de supervisíón, pudiendo validar los detalles de cada una de las pólizas especifiacas generadas desde sus pólizas generales.
 
-??? success "Permisos"
+??? success "Permisos Pólizas Específicas"
     * [ ] Consultar
         * [x] Consutar propios 
         * [x] Descargar reporte propios

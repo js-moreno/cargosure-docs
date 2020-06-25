@@ -19,23 +19,6 @@
 !!! note
     - Consultar los administradores de la plataforma
 
-
-### Aseguradoras
-
-!!! note
-    - Consultar las aseguradoras con las que está relacionado mediante una póliza general
-    
-### Intermediarios
-
-!!! note
-    - Consultar los intermediarios con las que está relacionado mediante una póliza general
-
-### Tomadores
-
-!!! note
-    - Consultar información de su organización
-    - Gestionar su información (Ver y Editar)
-
 ### Generadores
 
 !!! note

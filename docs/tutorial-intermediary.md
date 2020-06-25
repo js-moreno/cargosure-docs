@@ -17,27 +17,6 @@
 
 ## Actores
 
-### Administradores
-
-!!! note
-    - Consultar los administradores de la plataforma
-
-### Aseguradoras
-
-!!! note
-    - Consultar las aseguradoras con las que está relacionado mediante una póliza general
-
-### Intermediarios
-
-!!! note
-    - Consultar información de su organización
-    - Gestionar su información (Ver y Editar)
-
-### Tomadores
-
-!!! note
-    - Consultar los tomadores con los que está relacionado mediante una póliza específica generada a partir de una póliza general en la que aparezca
-
 ## Pólizas Generales
 
 !!! note
