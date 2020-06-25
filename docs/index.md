@@ -50,7 +50,7 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 La plataforma presenta un conjunto de herramientas enfocadas en los diferentes roles que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de *pólizas específicas* previas validaciones para asegurar el cumplimento de parametros, el seguimiento de los diferentes datos relevantes a partir de metricas y graficos del tablero de control, la descarga de información de interés y una completa trazabilida de la información desde un enfoque de autogestión bajo los pilares de la seguridad informática y la experienca de usuario. 
 
 ??? important "Tip"
-    La plataforma no realiza eliminaciones de ningún registro o archivo manupulado por los usuarios, en su lugar se manejan inactivaciones, lo que permite llevar una completa trazabilidad de acciones y retrotraer acciones equivocadas. 
+    La plataforma emplea el concepto *eliminación flexible* o *inactivación* para los recursos sensibles que son manipulados por los usuarios, lo que permite llevar una completa trazabilidad de hechos y tener la opción de reestablecer elementos "eliminados" erroneamente. 
 
 ## Acceso
 
