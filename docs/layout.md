@@ -19,7 +19,7 @@ Al acceder a la plataforma se tiene una estructura definida, según la cual se c
 
 La barra de navegacion recopila las rutas de acceso a los recursos que el usuario tiene a disposición según su rol, desde ella el usuario podrá acceder facilmente a las rutas para ver los contendios que requiera. 
 
-??? example "Composición Barra de Navegación"
+??? example "Composición"
     *   **Inicio** - Redirección a vista de Inicio
     *   **Opciones** - Agrupación de recursos de apoyo
         *   **Incidencias** - Monitoreo de incidentes de la plataforma 

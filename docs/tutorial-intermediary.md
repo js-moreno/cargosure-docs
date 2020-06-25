@@ -10,23 +10,12 @@
     * :fontawesome-solid-chart-line:  Histórico total valor de despacho
     * :fontawesome-solid-chart-bar:  Total valor de desacho por tomador
 
-## Usuarios
-    
-!!! note
-    - Consultar los usuarios de su organización 
+## Consulta de Actores
 
-## Actores
+## Revisión de Usuarios
 
-## Pólizas Generales
+## Exploración de Pólizas Generales
 
-!!! note
-    - Consultar pólizas generales en las que aparece
+## Gestión de Pólizas Específicas
 
-## Pólizas Específicas
-
-!!! note
-    - Consultar pólizas específicas generadas a partir de las pólizas generales en las que aparece
-    - Consultar pólizas específicas creadas
-    - Crear pólizas específicas
-    - Editar pólizas específicas creadas
-    - Inactivar pólizas específicas creadas
+## Exploración de Pólizas Específicas

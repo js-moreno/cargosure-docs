@@ -11,36 +11,12 @@
     * :fontawesome-solid-chart-bar:  Total valor de despacho por generador
     * :fontawesome-solid-chart-line:  Histórico total valor de despacho
     
-## Actores
+## Consulta de Actores
 
+## Revisión de Usuarios
 
-### Administradores
+## Exploración de Pólizas Generales
 
-!!! note
-    - Consultar los administradores de la plataforma
+## Gestión de Pólizas Específicas
 
-### Generadores
-
-!!! note
-    - Consultar generadores creados
-    - Crear generadores
-    - Editar generadores creados
-    - Inactivar generadores creados
-
-## Usuarios
-    
-!!! note
-    - Consultar los usuarios de su organización 
-
-## Pólizas Generales
-
-!!! note
-    - Consultar pólizas generales en las que aparece
-
-## Pólizas Específicas
-
-!!! note
-    - Consultar pólizas específicas creadas
-    - Crear pólizas específicas
-    - Editar pólizas específicas creadas
-    - Inactivar pólizas específicas creadas
+### Gestión de Generadores

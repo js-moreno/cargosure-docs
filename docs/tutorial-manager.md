@@ -16,16 +16,12 @@ Al ingresar al aplicativo, en la vista de inicio, podrá ver el tablero de mando
 
 ## Monitoreo
 
-Desde este menú podrá festionar todos los recursos de apoyo de la plataforma
 
 ## Gestión de Usuarios
 
-Su papel es vital para el correcto funcionamiento de la plataforma
 
 ## Gestión de Actores
 
-Su papel es vital para el correcto funcionamiento de la plataforma
 
 ## Supervisión
 
-Su papel es vital para el correcto funcionamiento de la plataforma
