@@ -15,7 +15,7 @@ Desde esta visual se podra tambien acceder a recursos públicos, como es el caso
 
 Al acceder a la plataforma se tiene una estructura definida, según la cual se cuenta con una *barra de navegación* a lo largo de la parte izquierda de la página, un *encabezado* en la parte superior de la misma y el *contenido* del recurso requerido
 
-## Barra de navegación
+### Barra de navegación
 
 La barra de navegacion recopila las rutas de acceso a los recursos que el usuario tiene a disposición según su rol, desde ella el usuario podrá acceder facilmente a las rutas para ver los contendios que requiera. 
 
@@ -37,12 +37,10 @@ La barra de navegacion recopila las rutas de acceso a los recursos que el usuari
         *   **Generadores** - Listado de generadores
     *   **Copyright** - Apartado de derechos de autor
 
-## Encabezado
+### Encabezado
 
 El encabezado presenta un resumen del estado actual de sesión, presenta la indicación del recurso en el que se está, el rol del usuario autenticado asi como su nombre y el nombre del actor al que está vinculado, asi como el logo (si esta definido). De igual manera presenta opciones de perfil, desde las que podrá editar la información permitida tanto personal como corporativa. Finalmente tambien presenta la funcionalidad de fin de sesión. 
 
-## Contenido
+### Contenido
 
-En esta seccion se presenta la interfaz gráfica para la interacción con el recurso en cuestion. Estas secciones podran ser infomres con graficos e indicadores de interés, compendios de datos en tablas, formularios para edicion o creacion de instancias, visuales con información de un resgistro en especifico o incluso el historial de cambios de una unidad de negocio. 
-
-Cabe aclarar que solo se tendrá a disposición las acciones y elementos que le sean permitidos a su rol y solo podran ser consumidos por usuarios autenticados.
+En esta seccion se presenta la interfaz gráfica para la interacción con el recurso en cuestion. Estas secciones podran ser infomres con graficos e indicadores de interés, compendios de datos en tablas, formularios para edicion o creacion de instancias, visuales con información de un resgistro en especifico o incluso el historial de cambios de una unidad de negocio. Cabe aclarar que solo se tendrá a disposición las acciones y elementos que le sean permitidos al rol del usuario autenticado.
