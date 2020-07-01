@@ -45,15 +45,8 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 >Son las cuentas personales desde la que un individuo tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado *actor* desde el cual le son conferidos los permisos que tendrá dentro de la plataforma a modo de rol.
 
 
-## Funcionalidades
+## Objetivo
 
-La plataforma presenta un conjunto de herramientas enfocadas en los diferentes roles que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de *pólizas específicas* previas validaciones para asegurar el cumplimento de parametros, el seguimiento de los diferentes datos relevantes a partir de metricas y graficos del tablero de control, la descarga de información de interés y una completa trazabilida de la información desde un enfoque de autogestión bajo los pilares de la seguridad informática y la experienca de usuario. 
+La plataforma presenta un conjunto de herramientas enfocadas en los diferentes roles, con lo que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de *pólizas específicas* previas validaciones para asegurar el cumplimento de parametros, el seguimiento de los diferentes datos relevantes a partir de métricas y gráficos del tablero de control, la descarga de información de interés y una completa trazabilida de la información desde un enfoque de autogestión bajo los pilares de la seguridad informática y la experienca de usuario. 
 
-??? important "Tip"
-    La plataforma emplea el concepto *eliminación flexible* o *inactivación* para los recursos sensibles que son manipulados por los usuarios, lo que permite llevar una completa trazabilidad de hechos y tener la opción de reestablecer elementos "eliminados" erroneamente. 
-
-## Acceso
-
-El acceso a la plataforma es gestionado por los Administradores, quienes como primera medida serán los encargados de la creación del actor (la organización con uno de los roles previamente descritos) luego de la solicitud formal de un representante de la compañía tras su correspondiente validación. Paso seguido, con una solicitud similar serán creados los diferentes usuarios que se requieran bajo la figura del actor previamente creado.
-
-Las acciones de edición restringida o inactivacion de cuentas ya sea corporativas (actor) o individuales (usuario) se realizarán tambien con una solicitud formal del representante de la organización.
+Del mismo modo el sistio web tiene funcionalidades públicas a las cuales puede acceder sin requerir de un usuario en la platafarma; como es el caso de la *consulta expresa*

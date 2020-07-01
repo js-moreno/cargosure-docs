@@ -3,6 +3,10 @@
 
 ## Panel de Control
 
+Al ingresar al aplicativo, en la vista de inicio, podrá ver el tablero de mando que le ofrece la plataforma, desde este podrá apreciar un visual completa de las metricas mas relevantes de su rol, con el fin de tener un panorama actualizado del negocio y así ejercer un control oportuno. 
+
+Estas méticas estarán definidas para un periodo de tiempo establecido; que  por defecto será el año en curso, sin embargo presenta la posibilidad de modificar el espacio de tiempo evaluado, para así filtrar por rango de fechas el segmento de tiempo de interés.
+
 ??? info "Métricas"
     * :fontawesome-solid-building: Generadores creados
     * :fontawesome-solid-print:  Cantidad pólizas específicas emitidas

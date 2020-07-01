@@ -4,8 +4,6 @@ Los actores con este rol son los encargados de la gestión universal de la plata
 
 ## Panel de Control
 
-Al ingresar al aplicativo, en la vista de inicio, podrá ver el tablero de mando que le ofrece la plataforma, desde este podrá apreciar un visual completa de las metricas mas relevantes de su rol, con el fin de tener un panorama actualizado del negocio y así ejercer un control oportuno.
-
 ??? info "Métricas"
     * :fontawesome-solid-users:   Usuarios verificados
     * :fontawesome-solid-university:   Actores creados
@@ -16,12 +14,64 @@ Al ingresar al aplicativo, en la vista de inicio, podrá ver el tablero de mando
 
 ## Monitoreo
 
+??? success "Permisos Incidencias"
+    * [x] Consultar
+    * [x] Ver
+    * [x] Eliminar
 
-## Gestión de Usuarios
-
+Para el monitoreo de la aplicación se cuenta con una sección de segimiento de incidentes de la plataforma a nivel técnico,comunmente denominada *logginig*, a la cual solo podrán acceder los administradores en la rurta Opciones->Incidencias. En este apartado se registraran todas las ocurrencias fuera del flujo de uso satisfactorio, dentro de los que se encuentran intentos de acceso no autenticados, intentos de acceso no autorizado, errores de diligenciamento de información, errores inesperados del sistema entre otros. Todos estos registros estarán ordenados por fecha de ocurrencia y aquellos más criticos serán reportados en tiempo real a un canal de comunicación interna en la plataforma slack
 
 ## Gestión de Actores
 
+??? success "Permisos Actores/Administradores"
+    * [x] Consultar
+    * [x] Ver
+    * [x] Crear
+    * [x] Editar
+    * [x] Eliminar
+
+??? success "Permisos Actores/Aseguradoras"
+    * [x] Consultar
+    * [x] Ver
+    * [x] Crear
+    * [x] Editar
+    * [x] Eliminar
+
+??? success "Permisos Actores/Intermediarios"
+    * [x] Consultar
+    * [x] Ver
+    * [x] Crear
+    * [x] Editar
+    * [x] Eliminar
+
+??? success "Permisos Actores/Tomadores"
+    * [x] Consultar
+    * [x] Ver
+    * [x] Crear
+    * [x] Editar
+    * [x] Eliminar
+
+## Gestión de Usuarios
+
+??? success "Permisos Usuarios"
+    * [x] Consultar
+    * [x] Ver
+    * [x] Crear
+    * [x] Editar
+    * [x] Eliminar
 
 ## Supervisión
 
+??? success "Permisos Pólizas/Generales"
+    * [x] Consultar
+    * [x] Ver 
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar
+
+??? success "Permisos Pólizas/Específicas"
+    * [x] Consultar
+    * [x] Ver 
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar 

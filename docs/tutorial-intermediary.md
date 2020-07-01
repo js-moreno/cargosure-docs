@@ -12,6 +12,27 @@
 
 ## Consulta de Actores
 
+??? success "Permisos Actores/Administradores"
+    * [x] Consultar
+    * [ ] Ver
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar
+
+??? success "Permisos Actores/Aseguradoras"
+    * [x] Consultar
+    * [ ] Ver
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar
+
+??? success "Permisos Actores/Tomadores"
+    * [x] Consultar
+    * [ ] Ver
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar
+
 ## Revisión de Usuarios
 
 ## Exploración de Pólizas Generales

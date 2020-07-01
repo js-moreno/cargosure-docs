@@ -6,7 +6,9 @@ copyright: 'Copyright &copy; 2020'
 
 nav:
     - Inicio: index.md
+    - Ingreso: login.md
     - Disposición: layout.md
+    - Funcionalidades: features.md
     - Tutoriales: 
         - Administrador: 'tutorial-manager.md'
         - Aseguradora: 'tutorial-insurancer.md'

@@ -4,8 +4,6 @@ Las aseguradoras tienen la opción de gestionar las pólizas generales según lo
 
 ## Panel de Control
 
-Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y gráficos que le darán un completo resumen de las métricas claves del negocio.  Cantidad de pólizas específicas emitidas, la suma total de los valores asegurados y el valor total facturado por mes y en lo que va del año son algunos de los indices que le darán una reporte sustancial del estado del ejercicio.
-
 ??? info "Métricas"
     * :fontawesome-solid-globe:  Pólizas generales creadas
     * :fontawesome-solid-print:  Pólizas específicas emitidas
@@ -16,12 +14,26 @@ Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y g
 
 ## Consulta de Actores
 
-??? success "Permisos Administradores, Aseguradoras, Intermediarios y Tomadores"
+??? success "Permisos Actores/Administradores"
     * [x] Consultar
     * [ ] Ver
     * [ ] Crear
     * [ ] Editar
-    * [ ] Inactivar/activar
+    * [ ] Eliminar
+
+??? success "Permisos Actores/Intermediarios"
+    * [x] Consultar
+    * [ ] Ver
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar
+
+??? success "Permisos Actores/Tomadores"
+    * [x] Consultar
+    * [ ] Ver
+    * [ ] Crear
+    * [ ] Editar
+    * [ ] Eliminar
 
 ## Revisión de Usuarios
     
@@ -36,13 +48,13 @@ Tan pronto ingresa a la plataforma podrá encontrar una serie de indicadores y g
         * [ ] Ver de terceros   
     * [ ] Crear
     * [ ] Editar
-    * [ ] Inactivar/activar
+    * [ ] Eliminar
     
 ## Gestión de Pólizas Generales
 
-El primer módulo que tiene a disposición, y tal vez el más importante, es el de *Pólizas Generales*, desde allí podra llevar una completa gestión de dichos documentos. Consultar, visualizar, crear, editar e inactivar son las acciones que le permitirán llevar un completo control de este elemento central de negocio que por lo demás considera todas las posibles necesidades que pueda requerir el usuario en un mercado tan dinámico como es el de los seguros de carga. El poder representar fielmente  los puntos más relevantes de un documento de póliza de seguro de transporte de mercancia sin requerir de ayuda externa y que estos garanticen la generación de pólizas específicas bajo las directrices estipuladas, es sin duda una de las principales ventajas ofrecidas por la plataforma.
+Desde aquí podrá llevar una completa gestión de las polizas generales; consultar, visualizar, crear, editar y eliminar son las acciones que le permitirán llevar un completo control de este elemento central de negocio que por lo demás considera todas las posibles necesidades que pueda requerir el usuario en un mercado tan dinámico como es el de los seguros de carga. El poder representar fielmente  los puntos más relevantes de un documento de póliza de seguro de transporte de mercancia sin requerir de ayuda externa y que estos garanticen la generación de pólizas específicas bajo las directrices estipuladas, es sin duda una de las principales ventajas ofrecidas por la plataforma.
 
-??? success "Permisos Pólizas Generales"
+??? success "Permisos Pólizas/Generales"
     * [ ] Consultar
         * [x] Consutar propios 
         * [x] Descargar reporte propios 
@@ -55,15 +67,15 @@ El primer módulo que tiene a disposición, y tal vez el más importante, es el 
     * [ ] Editar
         * [x] Editar propios 
         * [ ] Editar de terceros  
-    * [ ] Inactivar/activar
-        * [x] Inactivar/activar propios 
-        * [ ] Inactivar/activar de terceros   
+    * [ ] Eliminar
+        * [x] Eliminar propios 
+        * [ ] Eliminar de terceros   
 
 ## Inspección de Pólizas Específicas
 
 Para la aseguradora es acceso a este módulo es simplemente de supervisíón, pudiendo validar los detalles de cada una de las pólizas especifiacas generadas desde sus pólizas generales.
 
-??? success "Permisos Pólizas Específicas"
+??? success "Permisos Pólizas/Específicas"
     * [ ] Consultar
         * [x] Consutar propios 
         * [x] Descargar reporte propios
@@ -74,6 +86,6 @@ Para la aseguradora es acceso a este módulo es simplemente de supervisíón, pu
         * [ ] Ver de terceros   
     * [ ] Crear
     * [ ] Editar
-    * [ ] Inactivar/activar
+    * [ ] Eliminar
 
 

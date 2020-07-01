@@ -2,16 +2,13 @@
 
 La plataforma tiene un diseño estandar basado en una SPA *Single page Aplication*; con una vista de ingreso con las funcionalidades públicas y metodos de acceso y una serie de vistas internas a las que podrán acceder los usuarios autenticados segun su rol.
 
-## Vista Ingreso
+## Vistas Públicas
 
 Es la vista obtenida al acceder a la URL de la plataforma, desde ella se podrán hacer acciones relacionadas a al autenticación como lo son el ingreso al aplicativo o el restablecimiento de la contraseña en caso de olvido.
 
 Desde esta visual se podra tambien acceder a recursos públicos, como es el caso de esta documentación o la *consulta expresa* de una póliza específica emitida disponible.
 
-??? tip "Tip"
-    La **consulta expresa** es una funcionalidad pública desde la que se puede acceder a los datos disponibles de una póliza específica ya sea a partir del número de póliza especifica y token de identificación presentados en el documento emitido o escaneando el código QR del mismo certificado. Esta opcion es de mucha utilidad para la verificación de una póliza específica emitidas por parte del usuario final, quien podrá hacerlo sin autenticarse en la plataforma.
-
-## Vistas Internas
+## Vistas Privadas
 
 Al acceder a la plataforma se tiene una estructura definida, según la cual se cuenta con una *barra de navegación* a lo largo de la parte izquierda de la página, un *encabezado* en la parte superior de la misma y el *contenido* del recurso requerido
 
