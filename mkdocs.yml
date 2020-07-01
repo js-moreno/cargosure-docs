@@ -6,7 +6,7 @@ copyright: 'Copyright &copy; 2020'
 
 nav:
     - Inicio: index.md
-    - Ingreso: login.md
+    - Acceso: login.md
     - Disposición: layout.md
     - Funcionalidades: features.md
     - Tutoriales: 
@@ -55,4 +55,4 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
-    version: 1.0n
+    version: 1.0

@@ -1,12 +1,12 @@
 # Funcionalidades
 
-## Consulta Expresa
-
-La consulta expresa es una funcionalidad pública desde la que se puede acceder a los datos disponibles de una póliza específica ya sea a partir del número de póliza especifica y token de identificación presentados en el documento emitido o escaneando el código QR del mismo certificado. Esta opcion es de mucha utilidad para la verificación de una póliza específica emitidas por parte del usuario final, quien podrá hacerlo sin autenticarse en la plataforma.
-
 ??? important "Tip"
     La plataforma emplea el concepto de *eliminación blanda* o *inactivación* para los recursos sensibles que son manipulados por los usuarios, lo que permite llevar una completa trazabilidad de hechos y tener la opción de restablecer elementos "eliminados" erroneamente. 
 
+
+## Consulta Expresa
+
+La consulta expresa es una funcionalidad pública desde la que se puede acceder a los datos disponibles de una póliza específica ya sea a partir del número de póliza especifica y token de identificación presentados en el documento emitido o escaneando el código QR del mismo certificado. Esta opcion es de mucha utilidad para la verificación de una póliza específica emitidas por parte del usuario final, quien podrá hacerlo sin autenticarse en la plataforma.
 
 ## Panel de Control
 
