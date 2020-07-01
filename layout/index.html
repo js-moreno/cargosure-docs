@@ -166,6 +166,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href="../login/" title="Ingreso" class="md-nav__link">
+      Ingreso
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -203,18 +215,18 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#vista-ingreso" class="md-nav__link">
-    Vista Ingreso
+  <a href="#vistas-publicas" class="md-nav__link">
+    Vistas Públicas
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#vistas-internas" class="md-nav__link">
-    Vistas Internas
+  <a href="#vistas-privadas" class="md-nav__link">
+    Vistas Privadas
   </a>
   
-    <nav class="md-nav" aria-label="Vistas Internas">
+    <nav class="md-nav" aria-label="Vistas Privadas">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -255,18 +267,30 @@
       
 
 
+  <li class="md-nav__item">
+    <a href="../features/" title="Funcionalidades" class="md-nav__link">
+      Funcionalidades
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
-    <label class="md-nav__link" for="nav-3">
+    <label class="md-nav__link" for="nav-5">
       Tutoriales
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Tutoriales" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
+      <label class="md-nav__title" for="nav-5">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -366,18 +390,18 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#vista-ingreso" class="md-nav__link">
-    Vista Ingreso
+  <a href="#vistas-publicas" class="md-nav__link">
+    Vistas Públicas
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#vistas-internas" class="md-nav__link">
-    Vistas Internas
+  <a href="#vistas-privadas" class="md-nav__link">
+    Vistas Privadas
   </a>
   
-    <nav class="md-nav" aria-label="Vistas Internas">
+    <nav class="md-nav" aria-label="Vistas Privadas">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -424,12 +448,10 @@
                 
                 <h1 id="disposicion">Disposición<a class="headerlink" href="#disposicion" title="Permanent link">#</a></h1>
 <p>La plataforma tiene un diseño estandar basado en una SPA <em>Single page Aplication</em>; con una vista de ingreso con las funcionalidades públicas y metodos de acceso y una serie de vistas internas a las que podrán acceder los usuarios autenticados segun su rol.</p>
-<h2 id="vista-ingreso">Vista Ingreso<a class="headerlink" href="#vista-ingreso" title="Permanent link">#</a></h2>
+<h2 id="vistas-publicas">Vistas Públicas<a class="headerlink" href="#vistas-publicas" title="Permanent link">#</a></h2>
 <p>Es la vista obtenida al acceder a la URL de la plataforma, desde ella se podrán hacer acciones relacionadas a al autenticación como lo son el ingreso al aplicativo o el restablecimiento de la contraseña en caso de olvido.</p>
 <p>Desde esta visual se podra tambien acceder a recursos públicos, como es el caso de esta documentación o la <em>consulta expresa</em> de una póliza específica emitida disponible.</p>
-<details class="tip"><summary>Tip</summary><p>La <strong>consulta expresa</strong> es una funcionalidad pública desde la que se puede acceder a los datos disponibles de una póliza específica ya sea a partir del número de póliza especifica y token de identificación presentados en el documento emitido o escaneando el código QR del mismo certificado. Esta opcion es de mucha utilidad para la verificación de una póliza específica emitidas por parte del usuario final, quien podrá hacerlo sin autenticarse en la plataforma.</p>
-</details>
-<h2 id="vistas-internas">Vistas Internas<a class="headerlink" href="#vistas-internas" title="Permanent link">#</a></h2>
+<h2 id="vistas-privadas">Vistas Privadas<a class="headerlink" href="#vistas-privadas" title="Permanent link">#</a></h2>
 <p>Al acceder a la plataforma se tiene una estructura definida, según la cual se cuenta con una <em>barra de navegación</em> a lo largo de la parte izquierda de la página, un <em>encabezado</em> en la parte superior de la misma y el <em>contenido</em> del recurso requerido</p>
 <h3 id="barra-de-navegacion">Barra de navegación<a class="headerlink" href="#barra-de-navegacion" title="Permanent link">#</a></h3>
 <p>La barra de navegacion recopila las rutas de acceso a los recursos que el usuario tiene a disposición según su rol, desde ella el usuario podrá acceder facilmente a las rutas para ver los contendios que requiera. </p>
@@ -513,8 +535,8 @@
         <!-- Link to previous page -->
         
           <a
-            href=".."
-            title="Inicio"
+            href="../login/"
+            title="Ingreso"
             class="md-footer-nav__link md-footer-nav__link--prev"
             rel="prev"
           >
@@ -526,7 +548,7 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Inicio
+                Ingreso
               </div>
             </div>
           </a>
@@ -535,8 +557,8 @@
         <!-- Link to next page -->
         
           <a
-            href="../tutorial-manager/"
-            title="Administrador"
+            href="../features/"
+            title="Funcionalidades"
             class="md-footer-nav__link md-footer-nav__link--next"
             rel="next"
           >
@@ -545,7 +567,7 @@
                 <span class="md-footer-nav__direction">
                   Siguiente
                 </span>
-                Administrador
+                Funcionalidades
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
