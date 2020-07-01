@@ -2,9 +2,13 @@
 
 Esta es la documentación oficial de [Cargosure](https://www.cargosure.co), una plataforma web especializada en la gestión de pólizas de seguro para carga en operaciones logísticas, funcionando como un mercado en el que convergen oferentes, mediadores y demandantes.
 
+## Objetivo
+
+La plataforma presenta un conjunto de herramientas enfocadas en los diferentes roles, con lo que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de *pólizas específicas* previas validaciones para asegurar el cumplimento de parametros, el seguimiento de los diferentes datos relevantes a partir de métricas y gráficos del tablero de control, la descarga de información de interés y una completa trazabilida de la información desde un enfoque de autogestión bajo los pilares de la seguridad informática y la experienca de usuario. 
+
 ## Especificaciones
 
-Cargosure esta desarrollada desde el modelo BFF a partir de Angular 9 para Frontend y una restful API desarrollada desde Laravel 7 para el Backend, lo que desde sus estándares permite garantizar un elevado nivel de servicio  en terminos de desempeño, mantenibilidad, escalabilidad y seguridad, asi como su potencial integración con otras aplicaciones.
+Cargosure esta desarrollada desde el modelo BFF a partir de Angular para Frontend y una restful API desarrollada desde Laravel para el Backend, lo que desde sus estándares permite garantizar un elevado nivel de servicio  en terminos de desempeño, mantenibilidad, escalabilidad y seguridad, asi como su potencial integración con otras aplicaciones.
 
 ## Terminología
 
@@ -43,10 +47,3 @@ Para el uso de esta plataforma es importante tener en cuenta las terminoligía e
 #### Usuarios
 
 >Son las cuentas personales desde la que un individuo tienen acceso a la plataforma. Los usuarios están asociados a un sujeto denominado *actor* desde el cual le son conferidos los permisos que tendrá dentro de la plataforma a modo de rol.
-
-
-## Objetivo
-
-La plataforma presenta un conjunto de herramientas enfocadas en los diferentes roles, con lo que prentende facilitar y centralizar el modelo de negocio de las pólizas de carga, permitiendo una completa gestión de *pólizas generales* teniendo en cuenta las dínamicas de negocio, la emisión de *pólizas específicas* previas validaciones para asegurar el cumplimento de parametros, el seguimiento de los diferentes datos relevantes a partir de métricas y gráficos del tablero de control, la descarga de información de interés y una completa trazabilida de la información desde un enfoque de autogestión bajo los pilares de la seguridad informática y la experienca de usuario. 
-
-Del mismo modo el sistio web tiene funcionalidades públicas a las cuales puede acceder sin requerir de un usuario en la platafarma; como es el caso de la *consulta expresa*
