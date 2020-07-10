@@ -52,7 +52,7 @@ Las aseguradoras tienen la opción de gestionar las pólizas generales según lo
     
 ## Gestión de Pólizas Generales
 
-Desde aquí podrá llevar una completa gestión de las polizas generales; consultar, visualizar, crear, editar y eliminar son las acciones que le permitirán llevar un completo control de este elemento central de negocio que por lo demás considera todas las posibles necesidades que pueda requerir el usuario en un mercado tan dinámico como es el de los seguros de carga. El poder representar fielmente  los puntos más relevantes de un documento de póliza de seguro de transporte de mercancia sin requerir de ayuda externa y que estos garanticen la generación de pólizas específicas bajo las directrices estipuladas, es sin duda una de las principales ventajas ofrecidas por la plataforma.
+Desde aquí podrá llevar una completa gestión de las polizas generales; consultar, visualizar, crear, editar y eliminar son las acciones que le permitirán llevar un completo control de este elemento central de negocio y garantizar la fiel representación y validación de las directrices estipuladas.
 
 ??? success "Permisos Pólizas/Generales"
     * [ ] Consultar
@@ -73,7 +73,7 @@ Desde aquí podrá llevar una completa gestión de las polizas generales; consul
 
 ## Inspección de Pólizas Específicas
 
-Para la aseguradora es acceso a este módulo es simplemente de supervisíón, pudiendo validar los detalles de cada una de las pólizas especifiacas generadas desde sus pólizas generales.
+Para la aseguradora es acceso a este módulo es unicamente de supervisíón, pudiendo validar los detalles de cada una de las pólizas especifiacas generadas desde sus pólizas generales.
 
 ??? success "Permisos Pólizas/Específicas"
     * [ ] Consultar
