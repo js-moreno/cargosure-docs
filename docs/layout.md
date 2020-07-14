@@ -16,7 +16,7 @@ Al acceder a la plataforma se tiene una estructura definida, la cual cuenta con 
 
 La barra de navegacion recopila las rutas de acceso a los recursos que el usuario tiene a disposición según su rol, desde ella el usuario podrá acceder facilmente a las rutas para ver los contendios que requiera. 
 
-??? example "Composición"
+!!! example "Composición"
     *   **Inicio** - Redirección a vista de Inicio
     *   **Opciones** - Agrupación de recursos de apoyo
         *   **Incidencias** - Monitoreo de incidentes de la plataforma 
@@ -40,4 +40,4 @@ El encabezado presenta un resumen del estado actual de sesión, presenta la indi
 
 ### Contenido
 
-En esta seccion se presenta la interfaz gráfica para la interacción. Estas secciones podran ser infomres con graficos e indicadores de interés, compendios de datos en tablas, formularios para edicion o creacion de instancias, visuales con información de un resgistro en especifico o incluso el historial de cambios de una unidad de negocio. Cabe aclarar que solo se tendrá a disposición las acciones y elementos que le sean permitidos al rol del usuario autenticado.
+En esta sección se presenta la interfaz gráfica para la interacción que bien pordán ser informes con graficos e indicadores de interés, compendios de datos en tablas, formularios para edicion o creacion de instancias, visuales con información de un resgistro en especifico o incluso el historial de cambios de una unidad de negocio. Cabe aclarar que solo se tendrá a disposición las acciones y elementos que le sean permitidos al rol del usuario autenticado.
