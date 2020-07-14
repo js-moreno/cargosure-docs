@@ -1,6 +1,6 @@
 # Funcionalidades
 
-La aplicacion ofrece una serie de funcionalidades desde las que se gestionan los distintos recursos empleados para el funcionamiento de la plataforma, los cuales basados en métodos de consulta, vista, historial de cambios,  creación, edición, inactivación y activación permite la manipulación de instancias de negocio bajo validaciones de autorización e integridad de la información, lo cual convergen en un sistema amigable con el usuario y que le ofrece herramientas que le respaldan y facilitan su quehacer.
+La aplicación ofrece una serie de funcionalidades desde las que se gestionan los distintos recursos empleados para la operación de la plataforma, los cuales basados en métodos de consulta, descarga, vista, historial de cambios,  creación, edición, inactivación y activación permite la manipulación de instancias de negocio bajo validaciones de autorización e integridad de la información, lo cual convergen en un sistema amigable con el usuario que ofrece herramientas que le respaldan y facilitan su quehacer.
 
 ## Consulta Expresa
 
